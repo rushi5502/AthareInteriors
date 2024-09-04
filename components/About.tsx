@@ -24,7 +24,7 @@ const AboutUs = () => {
 
   <p className='  text-sm '>
   Founded by Ganesh Athare in 2018, ATHARE INTERIORS brings 
-creative and inspiring designs to life. Ganesh's keen eye for detail 
+creative and inspiring designs to life. Ganesh keen eye for detail 
 and commitment to blending creativity with functionality make every project 
 a true reflection of your vision.
   </p>
