@@ -4,6 +4,7 @@ import React from 'react';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { Separator } from './ui/separator';
 import { FadeInWhenVisible } from './FadeInvisiible';
+import WhatsAppButton from './whatsappbutton';
 
 const Footer = () => {
   return (
@@ -75,9 +76,9 @@ const Footer = () => {
  <Separator className=' md:hidden bg-slate-50/10 my-2'/>
            <div className=' flex    w-full     text-center  justify-center items-center gap-3'>
             <span className=' text-nowrap'>Follow  us</span>
-            <a href='#'>   <FaWhatsapp /></a>
-              <a href='#'>             <FaFacebookF /></a>
-              <a href='#'>    <FaInstagram /></a>
+            <WhatsAppButton/>
+              <a href='https://www.instagram.com/athareinteriors?igsh=MW51dnQwOGVnb2V0dA==' target='blank'>  <FaInstagram/></a>
+              <a href='https://www.facebook.com/athareinteriors?mibextid=ZbWKwL' target='blank'>    <FaFacebookF /></a>
            </div>
         </div>
  

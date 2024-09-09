@@ -19,7 +19,7 @@ const AboutUs = () => {
         <div className=' mt-14  grid md:grid-cols-2 items-start justify-start gap-2 w-full'>
  <div className='flex flex-col items-center justify-center w-full'>
  <div className=' h-60 w-full text-center items-center'>
- <Image src={"/logo2.jpg"} className='text-center' alt={"logo"} height={300} width={300}/>
+ <Image src={"/logo2.png"} className='text-center' alt={"logo"} height={300} width={300}/>
  </div>
 
   <p className='  text-sm '>

@@ -47,6 +47,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import QuoteDiloag from './Consultation-dilog';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
+import WhatsAppButton from './whatsappbutton';
 
  
  
@@ -125,7 +126,7 @@ import Image from 'next/image';
         offset={0}
         duration={500}
       >
-        <Image src={"/logo.jpg"} alt='logo' height={60} width={60}/>
+        <Image src={"/logo.png"} alt='logo' height={60} width={60}/>
       </Link>
       
         </MenubarMenu>
@@ -274,13 +275,18 @@ import Image from 'next/image';
           </Link>
         </MenubarMenu>  
 
+
+        <MenubarMenu>  
+         
+         <QuoteDiloag/>  
+        </MenubarMenu> 
      
            <Separator />
            <span className=' px-2 text-nowrap '>Follow us</span> 
            <div className=' px-2 flex    w-full     text-start    items-center gap-3'>
-              <a href='#'>   <FaWhatsapp /></a>
-              <a href='#'>             <FaFacebookF /></a>
-              <a href='#'>    <FaInstagram /></a>  
+              <WhatsAppButton/>
+              <a href='https://www.instagram.com/athareinteriors?igsh=MW51dnQwOGVnb2V0dA==' target='blank'>  <FaInstagram/></a>
+              <a href='https://www.facebook.com/athareinteriors?mibextid=ZbWKwL' target='blank'>    <FaFacebookF /></a>  
            </div>
       </div>
 
