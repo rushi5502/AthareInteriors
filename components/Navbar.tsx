@@ -46,6 +46,7 @@ import { Grip } from "lucide-react";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import QuoteDiloag from './Consultation-dilog';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import Image from 'next/image';
 
  
  
@@ -114,8 +115,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 
         <MenubarMenu>
-          <MenubarTrigger className="  hover:text-primary cursor-pointer font-normal px-4" >
-            
+          
           <Link
           className=' text-nowrap '
         activeClass="active"
@@ -125,9 +125,9 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
         offset={0}
         duration={500}
       >
-         ATHAREINTERIORS
+        <Image src={"/logo.jpg"} alt='logo' height={60} width={60}/>
       </Link>
-      </MenubarTrigger> 
+      
         </MenubarMenu>
 
         <MenubarMenu>
@@ -163,7 +163,12 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
         </MenubarMenu>   
 
         <MenubarMenu> 
-          <QuoteDiloag/>   
+         
+         
+         <QuoteDiloag/> 
+       
+      
+         
         </MenubarMenu> 
     </div>
              
@@ -176,7 +181,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
       <SheetContent>
         <SheetHeader className="mb-8 flex gap-4 flex-row">
         
-          <SheetTitle  className="flex gap-2 items-center">  Athare interiorss
+          <SheetTitle  className="flex gap-2 items-center">  Athare interiors
           </SheetTitle>  
         </SheetHeader>
         <Separator />

@@ -141,7 +141,7 @@ import areas from "@/public/demo";
                 <CardTitle className="text-xl font-medium">Send Message</CardTitle>
                 <CardDescription className="mt-1">send message to connect with me.</CardDescription>
                 <br />
-                <CardContent>  
+                <CardContent className="p-0 md:p-2">  
                 <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
          <div className=" flex items-center gap-2 w-full">
