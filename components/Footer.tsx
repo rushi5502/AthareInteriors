@@ -57,7 +57,7 @@ const Footer = () => {
         offset={50}
         duration={500}
       >
-        About us
+        About 
       </Link>
   
          <Link
