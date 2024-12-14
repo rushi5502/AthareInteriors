@@ -17,10 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <title>AthareInteriors</title>
-      </head>
+
+      <Head>
+        <title>Athare Interiors - Interior Design Services</title>
+         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Athare Interiors offers the best interior design solutions to transform your spaces into stunning and functional areas." />
+        <meta name="keywords" content="Athare Interiors, interior design, home decor, space planning" />
+        
+      </Head>
+      
       <body className={font.className}>
         {children}
         <Toaster />
