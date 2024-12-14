@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import Head from "next/head";
 
 const font = Poppins({ weight:['200','400','700','900'], subsets: ["latin"] });
 
