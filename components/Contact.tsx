@@ -119,7 +119,7 @@ import areas from "@/public/demo";
                       <IoMail size={23}/>
                       <div>
                       <h1 className="text-md"> Email</h1>
-                      <h3 className="text-sm">info@athareinteriors.com</h3>   
+                      <h3 className="text-sm">onspaceinteriors@gmail.com</h3>   
                            </div>
               
                       </div>

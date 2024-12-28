@@ -15,9 +15,9 @@ const Footer = () => {
        
         <div className=" grid  md:grid-cols-3  items-start  place-items-center py-4 justify-ceneter md:justify-between ">
             <div className='  mb-2'>
-            <h5 className="font-bold text-3xl">Athare Interior</h5>
+            <h5 className="font-bold text-3xl">Onsapce Interior</h5>
         <p className="text-sm ">
-          Crafted with love by Athare Interior
+          Crafted with love by Onsapce Interior
         </p>
             </div>
            <div className='flex flex-col items-center gap-2 '>
@@ -77,8 +77,8 @@ const Footer = () => {
            <div className=' flex    w-full     text-center  justify-center items-center gap-3'>
             <span className=' text-nowrap'>Follow  us</span>
             <WhatsAppButton/>
-              <a href='https://www.instagram.com/athareinteriors?igsh=MW51dnQwOGVnb2V0dA==' target='blank'>  <FaInstagram/></a>
-              <a href='https://www.facebook.com/athareinteriors?mibextid=ZbWKwL' target='blank'>    <FaFacebookF /></a>
+              <a href='' target='blank'>  <FaInstagram/></a>
+              <a href='' target='blank'>    <FaFacebookF /></a>
            </div>
         </div>
  
@@ -89,7 +89,7 @@ const Footer = () => {
 
       <Separator className=' md:hidden bg-slate-50/10 mb-2'/>
       <p className="text-sm  text-center">
-          &copy; {new Date().getFullYear()} Athare Interior. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Onespace Interior. All Rights Reserved.
         </p>
     </footer>
  </FadeInWhenVisible>

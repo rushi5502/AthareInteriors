@@ -11,7 +11,7 @@ const AboutUs = () => {
           </div> */}
  <div className='text-center'> 
  <h1 className="text-4xl">About Us</h1> 
-      <p className=' mt-2 text-gray-800 text-sm'>At ATHARE INTERIORS, we design spaces that reflect you. <br /> Our passionate  team is dedicated to creating unique, functional environments that inspire.
+      <p className=' mt-2 text-gray-800 text-sm'>At ONSPACE INTERIORS, we design spaces that reflect you. <br /> Our passionate  team is dedicated to creating unique, functional environments that inspire.
         </p>
  </div>
 
@@ -23,7 +23,7 @@ const AboutUs = () => {
  </div>
 
   <p className='  text-sm '>
-  Founded by Ganesh Athare in 2018, ATHARE INTERIORS brings 
+  Founded by Ganesh Athare in 2018, ONSPACE INTERIORS brings 
 creative and inspiring designs to life. Ganesh keen eye for detail 
 and commitment to blending creativity with functionality make every project 
 a true reflection of your vision.

@@ -62,7 +62,7 @@ import WhatsAppButton from './whatsappbutton';
    
 
       <div className="    flex  w-full     md:justify-center justify-between    ">
-      <span className=' md:hidden  block'>     ATHAREINTERIORS</span>
+      <span className=' md:hidden  block'>ONSPACEINTERIORS</span>
         <div className='md:flex gap-3 hidden'> 
             <MenubarMenu>
                 <MenubarTrigger  className="  hover:text-primary cursor-pointer   font-normal ">
@@ -182,7 +182,7 @@ import WhatsAppButton from './whatsappbutton';
       <SheetContent>
         <SheetHeader className="mb-8 flex gap-4 flex-row">
         
-          <SheetTitle  className="flex gap-2 items-center">  Athare interiors
+          <SheetTitle  className="flex gap-2 items-center">  Onspace interiors
           </SheetTitle>  
         </SheetHeader>
         <Separator />
@@ -285,8 +285,8 @@ import WhatsAppButton from './whatsappbutton';
            <span className=' px-2 text-nowrap '>Follow us</span> 
            <div className=' px-2 flex    w-full     text-start    items-center gap-3'>
               <WhatsAppButton/>
-              <a href='https://www.instagram.com/athareinteriors?igsh=MW51dnQwOGVnb2V0dA==' target='blank'>  <FaInstagram/></a>
-              <a href='https://www.facebook.com/athareinteriors?mibextid=ZbWKwL' target='blank'>    <FaFacebookF /></a>  
+              <a href='' target='blank'>  <FaInstagram/></a>
+              <a href='' target='blank'>    <FaFacebookF /></a>  
            </div>
       </div>
 

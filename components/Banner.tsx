@@ -41,7 +41,7 @@ const Banner = () => {
         <TypewriterEffect words={words}/>
  
         <FadeInWhenVisible   from="bottom"   > 
-        <p className='py-2  md:text-sm lg:text-xl'> Design Your Perfect Space with Athare Interiors</p>
+        <p className='py-2  md:text-sm lg:text-xl'> Design Your Perfect Space with Onspace Interiors</p>
        </FadeInWhenVisible>
         <FadeInWhenVisible   from="bottom"  delay={0.2} > 
         <Link

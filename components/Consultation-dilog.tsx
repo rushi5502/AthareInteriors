@@ -25,7 +25,7 @@ const QuoteDialog = () => {
           onEscapeKeyDown={(e) => e.preventDefault()} // Prevent closing on ESC key
         >
           <DialogHeader>
-            <DialogTitle>Athare Interiors</DialogTitle>
+            <DialogTitle>Onspace Interiors</DialogTitle>
             <DialogDescription>Get Free Consultation</DialogDescription>
           </DialogHeader>
           <ScrollArea className="h-[480px] w-full rounded-md">

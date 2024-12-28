@@ -7,8 +7,8 @@ import Head from "next/head";
 const font = Poppins({ weight:['200','400','700','900'], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AthareInteriors",
-  description: "Design Your Perfect Space with Athare Interiors",
+  title: "onspaceinteriors",
+  description: "Design Your Perfect Space with onspace Interiors",
 };
 
 export default function RootLayout({
@@ -20,10 +20,10 @@ export default function RootLayout({
     <html lang="en">
 
       <Head>
-        <title>Athare Interiors - Interior Design Services</title>
+        <title>onspace interiors- Interior Design Services</title>
          <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Athare Interiors offers the best interior design solutions to transform your spaces into stunning and functional areas." />
-        <meta name="keywords" content="Athare Interiors, interior design, home decor, space planning" />
+        <meta name="description" content="onspace Interiors offers the best interior design solutions to transform your spaces into stunning and functional areas." />
+        <meta name="keywords" content="onspace Interiors, interior design, home decor, space planning" />
         
       </Head>
       
