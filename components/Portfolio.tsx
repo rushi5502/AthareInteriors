@@ -6,6 +6,7 @@ import { BentoGrid } from "./ui/bendo-grid-";
 import { FadeInWhenVisible } from "./FadeInvisiible";
 import { AspectRatio } from "./ui/aspect-ratio";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Portfolio() {
   const demo = [
@@ -14,37 +15,44 @@ export function Portfolio() {
       image: "/living2.jpg", // Replace with actual image URL
       id: "1",
       category: "Residential",
+      route:"/livingroom",
     },
     {
       name: "Office Space",
       image: "/office.jpg", // Replace with actual image URL
       id: "2",
       category: "Commercial",
+      route:"/officespace",
     },
     {
-      name: "Apartment",
+      name: "Bedroom",
       image: "/appartment.jpg", // Replace with actual image URL
       id: "3",
       category: "Residential",
+      route:"/bedroom",
     },
     {
-      name: "Shopping Mall",
+      name: "restaurent",
       image: "/mall.jpg", // Replace with actual image URL
       id: "4",
       category: "Commercial",
+      route:"/restaurent",
     },
     {
-      name: "Villa",
+      name: "kitchen",
       image: "/villa.jpg", // Replace with actual image URL
       id: "5",
       category: "Residential",
+      route:"/kitchen",
     },
     {
-      name: "Warehouse",
-      image: "/warehouse.jpg", // Replace with actual image URL
+      name: "children bedroom",
+      image: "/villa.jpg", // Replace with actual image URL
       id: "6",
-      category: "Commercial",
+      category: "Residential",
+      route:"/children bedroom",
     },
+    
   ];
 
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -78,7 +86,9 @@ export function Portfolio() {
           <TabsContent value={selectedCategory} className="mt-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filteredDemo.map((item) => (
-                        <FadeInWhenVisible key={item.id}  from="top" delay={0.2} > 
+                       <Link href={item.route} >
+                       <FadeInWhenVisible key={item.id}  from="top" delay={0.2} > 
+                
                 <Card key={item.id} className="shadow-sm transition-opacity duration-500 ease-in-out opacity-0 animate-random-move">
                   <CardHeader className=" pt-2 pb-1">
                     <CardTitle className="text-lg font-medium">{item.name}</CardTitle>
@@ -94,6 +104,7 @@ export function Portfolio() {
                   </CardContent>
                 </Card>
                 </FadeInWhenVisible>
+                </Link>
               ))}
             </div>
           </TabsContent>

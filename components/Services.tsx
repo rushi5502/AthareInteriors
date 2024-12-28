@@ -30,14 +30,14 @@ const Services = () => {
  
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-5 w-full">
+     <div className="flex flex-wrap items-center justify-center gap-5 w-full">
       <FadeInWhenVisible from="top">
       <Card className="p-6  h-[295px] flex flex-col gap-3  w-[400px]    rounded-xl  hover:border-primary/30 shadow-sm  transition-transform duration-300 ease-in-out">
           <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
             <span className="text-lg font-medium text-gray-800">
             Residential 
             </span>
-            <div className="  p-2 rounded-full">
+            <div className=" bg-primary/10  border-primary  border  p-2 rounded-full">
               <PiBuildingsFill size={22} className="text-primary" />
             </div>
           </div>
@@ -62,11 +62,11 @@ const Services = () => {
 
  <FadeInWhenVisible from="top" delay={0.2}>
         <Card className="p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform transition-transform duration-300 ease-in-out">
-          <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
+          <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center  ">
             <span className="text-lg font-medium text-gray-800">
             Commercial
             </span>
-            <div className="  p-2 rounded-full">
+            <div className="  bg-primary/10  border-primary  border  p-2 rounded-full">
               <BsBriefcaseFill  size={22} className="text-primary" />
             </div>
           </div>
@@ -96,47 +96,9 @@ const Services = () => {
         </Card>
       </FadeInWhenVisible>
 
-      <FadeInWhenVisible from="top" delay={0.4}>
-        <Card className="p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform  transition-transform duration-300 ease-in-out">
-          <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
-            <span className="text-lg font-medium text-gray-800">
-             Construction 
-            </span>
-            <div className="  p-2 rounded-full">
-              <IoHammer  size={22} className="text-primary" />
-            </div>
-          </div>
-          <CardContent className="p-0 flex-1 ">
-     
-          <div className=" flex items-start gap-2 flex-col text-sm">
-            <li className=" flex items-start justify-start gap-2"> <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Building and development
-            </li>
-              <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div> Ground-up construction
-              </li>
-              <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Renovations and restorations
-              </li>
-              <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Additions and expansions
-              </li>
-              <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Project management
-              </li>
-              <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Permitting and approvals
-  </li>
-  <li className=" flex items-start justify-start gap-2">  <div> <PiDotOutlineDuotone  size={17}  className="text-gray-600" /></div>Site planning and development
-  </li>
-            </div>
-          </CardContent>
-        </Card>
-        </FadeInWhenVisible>
-      </div>
 
- 
- 
-
-
-   
-      <div className=" mt-5 py-2 flex flex-wrap items-center justify-center gap-5 w-full">
       <FadeInWhenVisible from="top">
-        <Card className="h-64 p-6 flex flex-col gap-3  w-[400px]  rounded-xl shadow-sm transform hover:translate-y-1 hover:shadow-md transition-transform duration-300 ease-in-out">
+        <Card className=" p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform transition-transform duration-300 ease-in-out">
           <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
             <span className="text-lg font-medium text-gray-800">
             Consultancy basis
@@ -159,8 +121,17 @@ const Services = () => {
           </CardContent>
         </Card>
         </FadeInWhenVisible>
+
+      
+      
+
+ 
+ 
+
+\
+    
         <FadeInWhenVisible from="top" delay={0.2}> 
-        <Card className="h-64 p-6 flex flex-col gap-3  w-[400px]  rounded-xl shadow-sm transform hover:translate-y-1 hover:shadow-md transition-transform duration-300 ease-in-out">
+        <Card className=" p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform transition-transform duration-300 ease-in-out">
           <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
             <span className="text-lg font-medium text-gray-800">
             Project Management  
@@ -181,7 +152,7 @@ const Services = () => {
         </Card>
         </FadeInWhenVisible>
         <FadeInWhenVisible from="top" delay={0.4}>
-        <Card className="h-64 p-6 flex flex-col gap-3  w-[400px]    rounded-xl shadow-sm transform hover:translate-y-1 hover:shadow-md transition-transform duration-300 ease-in-out">
+        <Card className=" p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform transition-transform duration-300 ease-in-out">
           <div className="p-0 mb-2  pb-2 border-b border-gray-200  w-full flex justify-between   items-center">
             <span className="text-lg font-medium text-gray-800">
             End to end turn-key solution 
