@@ -86,8 +86,8 @@ export function Portfolio() {
           <TabsContent value={selectedCategory} className="mt-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filteredDemo.map((item) => (
-                       <Link href={item.route} >
-                       <FadeInWhenVisible key={item.id}  from="top" delay={0.2} > 
+                       <Link href={item.route} key={item.id}>
+                       <FadeInWhenVisible   from="top" delay={0.2} > 
                 
                 <Card key={item.id} className="shadow-sm transition-opacity duration-500 ease-in-out opacity-0 animate-random-move">
                   <CardHeader className=" pt-2 pb-1">
