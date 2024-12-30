@@ -73,7 +73,8 @@ import areas from "@/public/demo";
     async  function onSubmit(values: z.infer<typeof ContactSchema>) {
         
          const res =  await ContactDetails(values);
-
+            console.log(res);
+            
          if(res?.success){
           toast({
             title:"we contact with you"
