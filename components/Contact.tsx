@@ -98,7 +98,7 @@ import areas from "@/public/demo";
    <div className="text-center">
    <h1 className="text-4xl  ">Contact Us</h1>
    <p className='mt-2 text-sm   text-gray-600'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, accusantium.
+          
         </p>
         </div>
         </FadeInWhenVisible>
@@ -128,7 +128,7 @@ import areas from "@/public/demo";
                       <IoLocationOutline size={23}/>
                       <div>
                       <h1 className="text-md">  location</h1>
-                      <h3 className="text-sm">pimple gurav, pune</h3>     
+                      <h3 className="text-sm">Maithili square, Kiwale, Ravet, Pimpri-Chinchwad, Dehu Road, Maharashtra 412101</h3>     
                            </div>
                      
                       </div>

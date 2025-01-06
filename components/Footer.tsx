@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='  mb-2'>
             <h5 className="font-bold text-3xl">Onsapce Interior</h5>
         <p className="text-sm ">
-          Crafted with love by Onsapce Interior
+          Crafted with love by Onspace Interior
         </p>
             </div>
            <div className='flex flex-col items-center gap-2 '>
@@ -89,7 +89,7 @@ const Footer = () => {
 
       <Separator className=' md:hidden bg-slate-50/10 mb-2'/>
       <p className="text-sm  text-center">
-          &copy; {new Date().getFullYear()} Onespace Interior. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Onspace Interior. All Rights Reserved.
         </p>
     </footer>
  </FadeInWhenVisible>
