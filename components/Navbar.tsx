@@ -118,7 +118,7 @@ import WhatsAppButton from './whatsappbutton';
         <MenubarMenu>
           
           <Link
-          className=' text-nowrap '
+          className='relative top-1 text-nowrap '
         activeClass="active"
         to="home"
         spy={true}
@@ -126,7 +126,7 @@ import WhatsAppButton from './whatsappbutton';
         offset={0}
         duration={500}
       >
-        <Image src={"/logo.png"} alt='logo' height={60} width={60}/>
+        <Image src={"/logo1.jpg"} alt='logo' height={60} width={60} />
       </Link>
       
         </MenubarMenu>

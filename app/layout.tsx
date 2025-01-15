@@ -21,7 +21,7 @@ export default function RootLayout({
 
       <Head>
         <title>onspace interiors- Interior Design Services</title>
-         <link rel="icon" href="/favicon.ico" />
+         <link rel="icon" href="/app/favicon.ico" />
         <meta name="description" content="onspace Interiors offers the best interior design solutions to transform your spaces into stunning and functional areas." />
         <meta name="keywords" content="onspace Interiors, interior design, home decor, space planning" />
         
