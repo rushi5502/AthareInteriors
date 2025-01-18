@@ -26,28 +26,28 @@ export function Portfolio() {
     },
     {
       name: "Bedroom",
-      image: "/appartment.jpg", // Replace with actual image URL
+      image: "/bedroom.jpg", // Replace with actual image URL
       id: "3",
       category: "Residential",
       route:"/bedroom",
     },
     {
       name: "restaurent",
-      image: "/mall.jpg", // Replace with actual image URL
+      image: "/restaurant.jpg", // Replace with actual image URL
       id: "4",
       category: "Commercial",
       route:"/restaurent",
     },
     {
       name: "kitchen",
-      image: "/villa.jpg", // Replace with actual image URL
+      image: "/kitchen.jpg", // Replace with actual image URL
       id: "5",
       category: "Residential",
       route:"/kitchen",
     },
     {
       name: "children bedroom",
-      image: "/villa.jpg", // Replace with actual image URL
+      image: "/childbaderoom.jpg", // Replace with actual image URL
       id: "6",
       category: "Residential",
       route:"/children bedroom",
