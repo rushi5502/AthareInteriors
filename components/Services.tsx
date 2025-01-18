@@ -123,12 +123,6 @@ const Services = () => {
         </FadeInWhenVisible>
 
       
-      
-
- 
- 
-
-\
     
         <FadeInWhenVisible from="top" delay={0.2}> 
         <Card className=" p-6  h-[295px] flex flex-col gap-3  w-[400px] bg-gradient-to-br  rounded-xl hover:border-primary/30 shadow-sm transform transition-transform duration-300 ease-in-out">
