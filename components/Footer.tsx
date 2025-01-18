@@ -77,8 +77,8 @@ const Footer = () => {
            <div className=' flex    w-full     text-center  justify-center items-center gap-3'>
             <span className=' text-nowrap'>Follow  us</span>
             <WhatsAppButton/>
-              <a href='' target='blank'>  <FaInstagram/></a>
-              <a href='' target='blank'>    <FaFacebookF /></a>
+              <a href='https://www.instagram.com/onspaceinteriors/' target='blank'>  <FaInstagram/></a>
+              <a href='https://www.facebook.com/people/Onspace-Interiors/61571338042616/' target='blank'>    <FaFacebookF /></a>
            </div>
         </div>
  
