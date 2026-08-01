@@ -128,7 +128,7 @@ import areas from "@/public/demo";
                       <IoLocationOutline size={23}/>
                       <div>
                       <h1 className="text-md">  location</h1>
-                      <h3 className="text-sm">Maithili square, Kiwale, Ravet, Pimpri-Chinchwad, Dehu Road, Maharashtra 412101</h3>     
+                      <h3 className="text-sm">Onspace interiors regal Lake town, Buddha vihar, Sai Sagar Nagar, Punawale, Pimpri-Chinchwad, Maharashtra 411033</h3>     
                            </div>
                      
                       </div>
